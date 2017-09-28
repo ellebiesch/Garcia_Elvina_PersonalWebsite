@@ -1,3 +1,9 @@
+html {
+    position: relative;
+    min-width: 1200px;
+    min-height: 768px;
+    height: 100%;
+}
 header{
 	height: 210px;
 }
@@ -8,20 +14,19 @@ div{
 
 
 .nav-bar a{
-	float: left;
+    float: left;
     display: block;
     color: black;
 	margin: 70px;
 	margin-top: -120px;
-	margin-left: 500px;
-	margin-right: -400px;
+	margin-left: 560px;
+	margin-right: -500px;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
     font-size: 24px;
 	font-family: "Basic Title Font", Sans-Serif-Serif;
-	
-	
+
 	
 }
 .nav-bar a:hover{
@@ -51,8 +56,9 @@ p {
 	font-family: "aliens and cows", Sans-Serif-Serif;
 	font-style: Bold;
 	padding: 10px 10px;
-	margin-top: 150px;
-	margin-left: 550px;
+	margin-left: 580px;
+	margin-top: 180px;
+	
 	
 }
 
@@ -65,10 +71,10 @@ p {
 }
 
 h2{
-	font-size: 70px;
+	font-size: 60px;
 	font-family: "Bebas Neue", Sans-Serif-Serif;
 	color: #950740;
-	margin-left: 350px;
+	margin-left: 430px;
 	padding: 50px 10px;
 	
 
@@ -77,7 +83,7 @@ h3 {
 	font-size: 50px;
 	font-family: "Young", Sans-Serif-Serif;
 	color: #4E4E50;
-	margin-left: 190px;
+	margin-left: 150px;
 	margin-top: -50px;
 	
 	
