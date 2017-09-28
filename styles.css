@@ -1,5 +1,5 @@
 header{
-	height: 300px;
+	height: 210px;
 }
 div{
 	margin-top: -40px;
@@ -47,7 +47,7 @@ h1 {
 } 
 p {
 	font-size: 30px;
-	font-family: "Segoa UI", Sans-Serif-Serif;
+	font-family: "aliens and cows", Sans-Serif-Serif;
 	font-style: Bold;
 	padding: 10px 10px;
 	margin-top: 150px;
@@ -55,19 +55,31 @@ p {
 	
 }
 
- .parallax{
-	 
-	 /* Set a specific height */
+.parallax {
     min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100px 100px;
+}
+
+h2{
+	font-size: 70px;
+	font-family: "Bebas Neue", Sans-Serif-Serif;
+	color: #950740;
+	margin-left: 350px;
+	padding: 90px 10px;
 	
-
-	 
- }
-
+	
+	
+}
+h3 {
+	font-size: 60px;
+	font-family: "Tall Dark and Handsome", Sans-Serif-Serif;
+	color: #4E4E50;
+	margin-left: 350px;
+	margin-top: -50px;
+	
+	
+}
 
