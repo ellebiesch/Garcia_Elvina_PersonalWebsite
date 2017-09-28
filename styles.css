@@ -80,16 +80,20 @@ h2{
 }
 h4 {
 	font-size: 25px;
-	font-family: "Arial", Sans-Serif-Serif;
+	font-family: "Bebas Kai", Sans-Serif-Serif;
 	color: #4E4E50;
 	margin-left: 600px;
 	margin-top: -50px;
 	
 }
-
-text{
+.parallax-layer1 {
 	
-	
+	min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
 	
 }
+
 
