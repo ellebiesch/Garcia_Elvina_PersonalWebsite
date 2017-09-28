@@ -18,9 +18,8 @@ div{
     display: block;
     color: black;
 	margin: 70px;
-	margin-top: -120px;
-	margin-left: 560px;
-	margin-right: -500px;
+	margin-top: -90px;
+	margin-left: 1200px;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
@@ -71,20 +70,25 @@ p {
 }
 
 h2{
-	font-size: 60px;
+	font-size: 80px;
 	font-family: "Bebas Neue", Sans-Serif-Serif;
 	color: #950740;
-	margin-left: 430px;
+	margin-left: 650px;
 	padding: 50px 10px;
 	
 
 }
-h3 {
-	font-size: 50px;
+h4 {
+	font-size: 25px;
 	font-family: "Young", Sans-Serif-Serif;
 	color: #4E4E50;
-	margin-left: 150px;
+	margin-left: 600px;
 	margin-top: -50px;
+	
+}
+
+text{
+	
 	
 	
 }
