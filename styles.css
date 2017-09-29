@@ -1,5 +1,4 @@
-html {
-    position: relative;
+body,html {
     min-width: 1200px;
     min-height: 768px;
     height: 100%;
@@ -10,6 +9,7 @@ header{
 div{
 	margin-top: -40px;
 	margin-left: -20px;
+	display: block;
 }
 
 
@@ -60,15 +60,6 @@ p {
 	
 	
 }
-
-.parallax {
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100px 100px;
-}
-
 h2{
 	font-size: 80px;
 	font-family: "Bebas Neue", Sans-Serif-Serif;
@@ -95,14 +86,22 @@ h4 {
 	 text-align: left;
 	 
  }
-.parallax-layer1 {
+ 
+ .parallax, .brdr-1 {
 	
-	min-height: 500px; 
+    min-height: 500px; 
+	position:relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100px 100px;
-	
+    background-size: 100px 100px; 
 }
+
+.brdr-1 {
+
+
+}
+
+
 
 
