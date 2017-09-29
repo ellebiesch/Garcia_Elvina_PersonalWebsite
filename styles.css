@@ -87,7 +87,7 @@ h4 {
 	 
  }
  
- .parallax, .brdr-1 {
+ .parallax {
 	
     min-height: 500px; 
 	position:relative;
@@ -98,10 +98,18 @@ h4 {
 }
 
 .brdr-1 {
-
-
+	 
+	position:relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	
 }
 
+.brdr-1{
+	background-image: url("image.jpg");
+	min-height: 300px;
+}
 
 
 
