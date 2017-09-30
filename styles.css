@@ -99,7 +99,7 @@ h4 {
  
  .parallax {
 	
-    min-height: 490px; 
+    min-height: 450px; 
 	position:relative;
     background-attachment: fixed;
     background-position: center;
@@ -136,9 +136,10 @@ h4 {
 	
 	
 }
-.brdr-4{
+.images-container{
 	margin: 0;
 	position:absolute;
+	min-height: 900px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
