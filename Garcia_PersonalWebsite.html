@@ -50,7 +50,7 @@
  <!------------For skills border ------------>  
  <section>
   <div class="brdr-3">
-  <div style="height:420px;width:1380px;background-color:#E3E2DF">;
+  <div style="height:500px;width:1380px;background-color:#E3E2DF">;
   
     <h3> What are my skills? </h3>
 	<p> I am into drawing, whether it is an anime or nature but not pro </p>
@@ -62,55 +62,76 @@
  
  <section>
      <div class="images-container">
-	   <div style="height:460px;width:1380px;">;
+	   <div style="height:600px;width:1380px;">;
 	     
 	   
 	   </div>
 
 	<div id="wrapper">
 	
-    <h1>My portfolio</h1>
-        <ul>
-            <li>
+    <h5>My portfolio</h5>
+	  
+        <ol>
+            
                 <a href="image_1.jpg" class="lightbox_trigger">
                 Picture 1
                 </a>
-            </li>
-            <li>
                 <a href="image_2.jpg" class="lightbox_trigger">
                 Picture 2
                 </a>
-            </li>
-            <li>
                 <a href="image_3.jpg" class="lightbox_trigger">
                 Picture 3
                 </a>
-            </li> 
-        </ul>
+        </ol>
      </p>
 </div> <!-- #/wrapper -->   
 
  <div id="lightbox">
-    <p>Click to close</p>
     <div id="content">
         <img src="#" />
     </div>
 </div>
+
 	   
-	<script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>   
+	<script src="https://code.jquery.com/jquery-1.6.2.min.js"></script> 
+<script>
+     
+    jQuery(document).ready(function($) {	 
 	   
-	   <script>
-     jQuery(document).ready(function($) {
+	 });
 	 
-	 $('.lightbox_trigger').click(function(e) {
+    $('.lightbox_trigger').click(function(e) {
 	
-	// Code that makes the lightbox appear
-
+	e.preventDefault();
+    var image_href = $(this).attr("href");
+	
+	if ($('#lightbox').length > 0) { 
+	$('#content').html('<img src="' + image_href + '" />');
+	$('#lightbox').show();
+}
+    else { 
+	
+	var lightbox = 
+	'<div id="lightbox">' +
+		 
+		'<div id="content">' + 
+			'<img src="' + image_href +'" />' +
+		'</div>' +	
+	'</div>';
+		
+	$('body').append(lightbox);
+}
+	
 });
 
+$('#lightbox').live('click', function() {
+	$('#lightbox').hide();
 });
+
+
+	
 </script>
-	   
+
 	   
 </body>
 </html>
