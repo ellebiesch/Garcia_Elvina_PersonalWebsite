@@ -1,14 +1,19 @@
 body,html {
-    min-width: 1200px;
-    min-height: 768px;
+  /*  min-width: 1200px; */
+    min-height: 100%;
     height: 100%;
 	margin: 0;
+	position:relative;
+    background-attachment: fixed;
+    background-position: center;	
+    background-repeat: no-repeat;
+	background-size: auto;
 }
 header{
 	height: 210px;
 }
 div{
-	margin-top: -40px;
+	margin-top: 0;
 	margin-left: -20px;
 	display: block;
 }
@@ -18,13 +23,13 @@ div{
     float: left;
     display: block;
     color: black;
-	margin: 70px;
-	margin-top: -90px;
+	margin: 90px;
+	margin-top: -120px;
 	margin-left: 1200px;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 28px;
 	font-family: "Basic Title Font", Sans-Serif-Serif;
 
 	
@@ -47,13 +52,13 @@ h1 {
 	font-style: Italic;
 	padding: 10px 10px;
 	margin-top: 130px;
-	margin-left: 80px;
+	margin-left: 95px;
 	
 	
 } 
 h6 {
 	font-size: 30px;
-	font-family: "aliens and cows", Sans-Serif-Serif;
+	font-family: "Bebas Neue", Sans-Serif-Serif;
 	font-style: Bold;
 	padding: 10px 10px;
 	margin-left: 580px;
@@ -62,9 +67,9 @@ h6 {
 	
 }
 h2{
-	font-size: 80px;
+	font-size: 100px;
 	font-family: "Bebas Neue", Sans-Serif-Serif;
-	color: #950740;
+	color: white;
 	margin-left: 650px;
 	padding: 50px 10px;
 	
@@ -80,13 +85,13 @@ h4 {
 }
  h3 {
 	 
-	  font-size: 50px;
+	  font-size: 80px;
 	  margin-left: 450px;
 	  margin-top: -8px;
 	  margin-bottom: 20px;
 	  text-align: left;
 	  padding: 40px 20px;
-	  font-family: 'Lato', Sans-Serif;
+	  font-family: 'Bebas Neue', Sans-Serif;
 	  color: white;
 	 
  }
@@ -99,9 +104,9 @@ h4 {
 	margin-left: 20px;
  }
  
- p{
+ p {
 	 
-	font-size: 25px;
+	font-size: 23px;
 	font-family: "Lato", Sans-Serif;
 	margin-left: 200px;
 	color:white;
@@ -116,36 +121,26 @@ h4 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100px 100px; 
-	margin: 0;
+	
 }
 
-.parallax_1 {
+
+
+.brdr-1 {
 	
-    min-height: 400px; 
+    margin: 0;
 	position:relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
-	margin: 0 auto;
+	background-size: cover;
 	
 }
 
 .brdr-1 {
-	
-	margin: 0;
-	position:relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-	background-size: auto;
-	
-}
+	background-image: url("bokeh2.jpg");
+	max-width:100%;
 
-.brdr-1 {
-	background-image: url("bokeh.jpg");
-	max-width: 100%;
-	
 }
 
 
@@ -159,53 +154,51 @@ h4 {
 	
 	
 }
+
+.container_2 {
+background-size: cover;
+	
+}
 .images-container{
 	margin: 0;
-	position:absolute;
+	position:relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: -50px;
-	padding-bottom: 10px;
+	width: 100%;
+	height: 100%;
+	
 	
 }	
 #wrapper {
-    width:700px;	
+    width:900px;	
     margin:0 auto; 
     background:#fff; 
-    text-align:center; 
-    border:1px solid #ccc;
-	padding: 30px;
-	padding-top: 10px;
-	padding-bottom: -50px;
+    text-align:center;
+    position: relative;
+    border:5px solid #ccc;
+	border-bottom: -100px;
     border-radius:0 0 5px 5px;
     -moz-border-radius:0 0 5px 5px;
     -webkit-border-radius: 0 0 5px 5px; 
     box-shadow:0 0 5px #ccc;
     -moz-box-shadow:0 0 5px #ccc;
     -webkit-box-shadow:0 0 5px #ccc;
+	
 }
 
 #lightbox {
-	display: none;
-    position: absolute;
+	
+	position: relative;
     width:100%; 
-    height:100%; 
-	background:url(overlay.png) repeat; 
+	
+	background-attachment:fixed;
+	background-position: center center;
     text-align:center;
-	overflow:auto;
-	margin:0px;
-	padding:0px;
-	margin-top: -450px;
-	margin-bottom: 600px;
-}
+	
+	
 
-#lightbox p {
-    text-align: center; 
-    color:#fff; 
-    margin-right:10px; 
-    font-size:15px; 
 }
 
 #lightbox img {
@@ -213,5 +206,15 @@ h4 {
     -webkit-box-shadow:0 0 25px #111;
     -moz-box-shadow:0 0 25px #111;
     max-width:600px;
+	margin-top:-1300px;
+	position: relative;
+	margin-left: -10px;
+	margin-right: 10px;
+	top: -10px;
+	
+	
 }
+
+
+
 
