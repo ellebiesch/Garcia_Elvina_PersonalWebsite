@@ -1,6 +1,6 @@
 body,html {
     max-width:100%;
-	overflow-x:auto;
+	overflow-x:hidden;
 	margin: 0;
 	position:relative;
     background-attachment: fixed;
@@ -10,14 +10,14 @@ body,html {
 
 }
 header{
-	height: 230px;
+	height: 200px;
 	
 }
 
 .logo{
 	
-	margin-top: -20px;
-	margin-left: -40px;
+	margin-top: 15px;
+	margin-left: 10px;
 }
 
 
@@ -26,12 +26,12 @@ header{
     display: block;
     color: black;
 	margin: 90px;
-	margin-top: -160px;
-	margin-left: 1090px;
+	margin-top: -110px;
+	margin-left: 1200px;
     text-align: center;
     padding: 15px 19px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 25px;
 	font-family: "Basic Title Font", Sans-Serif-Serif;
 
 	
@@ -52,13 +52,13 @@ h1 {
 	font-size: 75px;
 	font-family: "Segoa UI", Sans-Serif-Serif;
 	padding: 10px 10px;
-	margin-left: 70px;
-	margin-top: 80px;
+	margin-left: 90px;
+	margin-top: 150px;
 	
 	
 } 
 h6 {
-	font-size: 30px;
+	font-size: 26px;
 	font-family: "Bebas Neue", Sans-Serif-Serif;
 	padding: 10px 10px;
 	margin-left: 0;
@@ -229,15 +229,14 @@ h4 {
 
 #fb-logo, #twitter-logo{
 	
-
-	display:block;
-	overflow:hidden;
-	margin: 0 auto;
+    display: block;
 	top: -20px;
 	padding: 10px 10px;
 	position: center;
-	text-align: center;
-	
+	text-align: center;	
+	margin-left:-50px;
+	margin-top: 20px;
+
 	
 }
 
